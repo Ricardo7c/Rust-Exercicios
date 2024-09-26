@@ -1,0 +1,79 @@
+dependencies = { }
+
+[package]
+name = "Sequencial"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_OlaMundo"
+path = "01_OlaMundo.rs"
+
+[[bin]]
+name = "02_MostrarNumero"
+path = "02_MostrarNumero.rs"
+
+[[bin]]
+name = "03_Soma"
+path = "03_Soma.rs"
+
+[[bin]]
+name = "04_Media"
+path = "04_Media.rs"
+
+[[bin]]
+name = "05_conversorDeMedidas"
+path = "05_conversorDeMedidas.rs"
+
+[[bin]]
+name = "06_CalcularAreaCirculo"
+path = "06_CalcularAreaCirculo.rs"
+
+[[bin]]
+name = "07_CalculaDobroAreaDoQuadrado"
+path = "07_CalculaDobroAreaDoQuadrado.rs"
+
+[[bin]]
+name = "08_CalcularSalario"
+path = "08_CalcularSalario.rs"
+
+[[bin]]
+name = "09_ConversorDeTemperatura"
+path = "09_ConversorDeTemperatura.rs"
+
+[[bin]]
+name = "10_ConverterParaFahrenheit"
+path = "10_ConverterParaFahrenheit.rs"
+
+[[bin]]
+name = "11_OProdutoDaMetade"
+path = "11_OProdutoDaMetade.rs"
+
+[[bin]]
+name = "12_PesoIdeal"
+path = "12_PesoIdeal.rs"
+
+[[bin]]
+name = "13_PesoPorSexo"
+path = "13_PesoPorSexo.rs"
+
+[[bin]]
+name = "14_CalcularValorDeMulta"
+path = "14_CalcularValorDeMulta.rs"
+
+[[bin]]
+name = "15_SalarioComDesconto"
+path = "15_SalarioComDesconto.rs"
+
+[[bin]]
+name = "16_CalcularTinta"
+path = "16_CalcularTinta.rs"
+
+[[bin]]
+name = "17_CalcularTinta2"
+path = "17_CalcularTinta2.rs"
+
+[[bin]]
+name = "18_VelocidadeDeDownload"
+path = "18_VelocidadeDeDownload.rs"
+

@@ -1,0 +1,83 @@
+dependencies = { }
+
+[package]
+name = "Decisao"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_MaiorNumero"
+path = "01_MaiorNumero.rs"
+
+[[bin]]
+name = "02_PositivoOuNegativo"
+path = "02_PositivoOuNegativo.rs"
+
+[[bin]]
+name = "03_VerificarSexo"
+path = "03_VerificarSexo.rs"
+
+[[bin]]
+name = "04_VogalOuConsoante"
+path = "04_VogalOuConsoante.rs"
+
+[[bin]]
+name = "05_AvaliarAluno"
+path = "05_AvaliarAluno.rs"
+
+[[bin]]
+name = "06_MaiorNumero"
+path = "06_MaiorNumero.rs"
+
+[[bin]]
+name = "07_MaiorEMenor"
+path = "07_MaiorEMenor.rs"
+
+[[bin]]
+name = "08_ComprarMaisBarato"
+path = "08_ComprarMaisBarato.rs"
+
+[[bin]]
+name = "09_Decrescente"
+path = "09_Decrescente.rs"
+
+[[bin]]
+name = "10_Saudacao"
+path = "10_Saudacao.rs"
+
+[[bin]]
+name = "11_CalculandoAumento"
+path = "11_CalculandoAumento.rs"
+
+[[bin]]
+name = "12_FolhaDePagamento"
+path = "12_FolhaDePagamento.rs"
+
+[[bin]]
+name = "13_DiasDaSemana"
+path = "13_DiasDaSemana.rs"
+
+[[bin]]
+name = "14_CalculandoNotas"
+path = "14_CalculandoNotas.rs"
+
+[[bin]]
+name = "15_IdentificadorDeTriangulos"
+path = "15_IdentificadorDeTriangulos.rs"
+
+[[bin]]
+name = "16_EsquacaoDoSegundoGrau"
+path = "16_EsquacaoDoSegundoGrau.rs"
+
+[[bin]]
+name = "17_CalcularAnoBissexto"
+path = "17_CalcularAnoBissexto.rs"
+
+[[bin]]
+name = "18_ValidandoData"
+path = "18_ValidandoData.rs"
+
+[[bin]]
+name = "19_SeparandoDecimal"
+path = "19_SeparandoDecimal.rs"
+
