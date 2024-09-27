@@ -85,3 +85,7 @@ path = "19_SeparandoDecimal.rs"
 name = "20_AvaliandoAluno"
 path = "20_AvaliandoAluno.rs"
 
+[[bin]]
+name = "21_CaixaEletronico"
+path = "21_CaixaEletronico.rs"
+
