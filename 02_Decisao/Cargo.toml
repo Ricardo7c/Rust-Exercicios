@@ -89,3 +89,7 @@ path = "20_AvaliandoAluno.rs"
 name = "21_CaixaEletronico"
 path = "21_CaixaEletronico.rs"
 
+[[bin]]
+name = "22_ParOuImpar"
+path = "22_ParOuImpar.rs"
+
