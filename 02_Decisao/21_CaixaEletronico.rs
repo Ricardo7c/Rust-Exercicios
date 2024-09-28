@@ -44,19 +44,38 @@ fn main(){
 
 
     if n100 > 0 {
-        println!("{} Notas de R$100,00", n100);
+        if n100 > 1{
+            println!("{} Notas de R$100,00", n100);
+        }else{
+            println!("{} Nota de R$100,00", n100);
+        }
     }
     if n50 > 0 {
-        println!("{} Notas de R$50,00", n50);
+        if n50 > 1{
+            println!("{} Notas de R$50,00", n50);
+        }else{
+            println!("{} Nota de R$50,00", n50);
+        }
     }
     if n10 > 0 {
-        println!("{} Notas de R$10,00", n10);
+        if n10 > 1{
+            println!("{} Notas de R$10,00", n10);
+        }else{
+            println!("{} Nota de R$10,00", n10);
+        }
     }
     if n5 > 0 {
-        println!("{} Notas de R$5,00", n5);
+        if n5 > 1{
+            println!("{} Notas de R$5,00", n5);
+        }else{
+            println!("{} Nota de R$5,00", n5);
+        }
     }
     if n1 > 0 {
-        println!("{} Notas de R$1,00", n1);
+        if n1 > 1{
+            println!("{} Notas de R$1,00", n1);
+        }else{
+            println!("{} Nota de R$1,00", n1);
+        }
     }
-
 }
