@@ -97,3 +97,7 @@ path = "22_ParOuImpar.rs"
 name = "23_InteiroOuDecimal"
 path = "23_InteiroOuDecimal.rs"
 
+[[bin]]
+name = "24_Calculadora"
+path = "24_Calculadora.rs"
+
