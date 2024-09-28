@@ -34,12 +34,12 @@ fn main(){
                 resultado = num1/num2;
                 break;
             }else{
-                println!("Divisão por zero não é permitido!")
+                println!("Divisão por zero não é permitido!");
             }
         }else{
-            println!("Operador invalido, tente novamente!")
+            println!("Operador invalido, tente novamente!");
         }
-        };
+    };
 
     let par_inp:&str;
     let pos_neg:&str;
@@ -49,20 +49,20 @@ fn main(){
         par_inp = "Par";
     }else{
         par_inp = "Inpar";
-    }
+    };
 
     if resultado < 0.0{
         pos_neg = "Negativo";
     }else{
         pos_neg = "Positivo";
-    }
+    };
 
     let result = resultado.trunc();
     if result == resultado{
         dec_int = "Inteiro";
     }else{
         dec_int = "Decimal";
-    }
+    };
 
     println!("O resultado da operação é {:.1} um numero {}, {} e {}", resultado, par_inp, pos_neg, dec_int);
 
