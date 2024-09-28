@@ -113,3 +113,7 @@ path = "26_PostoDeGasolina.rs"
 name = "27_LojaDeFrutas"
 path = "27_LojaDeFrutas.rs"
 
+[[bin]]
+name = "28_PromocaoCarne"
+path = "28_PromocaoCarne.rs"
+
