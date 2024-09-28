@@ -93,3 +93,7 @@ path = "21_CaixaEletronico.rs"
 name = "22_ParOuImpar"
 path = "22_ParOuImpar.rs"
 
+[[bin]]
+name = "23_InteiroOuDecimal"
+path = "23_InteiroOuDecimal.rs"
+
