@@ -8,14 +8,24 @@ fn input(texto: &str) -> String{
     x.trim().to_string()
 }
 
-fn int(valor: String) -> i32{
-    let x :i32 = valor.trim().parse().unwrap();
-    x
+fn int(texto: &str) -> i32{
+    loop{
+        let x = input(texto);
+        match x.parse::<i32>() {
+            Ok(num) => return num,
+            Err(_) => println!("Valor invalido!")
+        }
+    }
 }
 
-fn float(valor: String) -> f32{
-    let x :f32 = valor.trim().parse().unwrap();
-    x
+fn float(texto: &str) -> f32{
+    loop{
+        let x = input(texto);
+        match x.parse::<f32>() {
+            Ok(num) => return num,
+            Err(_) => println!("Valor invalido!")
+        }
+    }
 }
 
 fn main(){
@@ -36,7 +46,7 @@ fn main(){
     };
 
     loop {
-        idade = int(input("Digite sua idade: "));
+        idade = int("Digite sua idade: ");
         if idade >= 0 && idade <= 150{
             break;
         }else{
@@ -46,7 +56,7 @@ fn main(){
     };
 
     loop {
-        salario = float(input("Digite seu salario: "));
+        salario = float("Digite seu salario: ");
         if salario > 0.0{
             break;
         }else{
