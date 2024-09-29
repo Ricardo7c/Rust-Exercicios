@@ -13,3 +13,11 @@ path = "01_ExijaUmaNota.rs"
 name = "02_NomeESenha"
 path = "02_NomeESenha.rs"
 
+[[bin]]
+name = "03_ValidandoInfo"
+path = "03_ValidandoInfo.rs"
+
+[[bin]]
+name = "entrada"
+path = "entrada.rs"
+
