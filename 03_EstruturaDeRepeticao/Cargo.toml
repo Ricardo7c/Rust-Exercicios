@@ -9,3 +9,7 @@ edition = "2021"
 name = "01_ExijaUmaNota"
 path = "01_ExijaUmaNota.rs"
 
+[[bin]]
+name = "02_NomeESenha"
+path = "02_NomeESenha.rs"
+
