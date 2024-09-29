@@ -1,0 +1,11 @@
+dependencies = { }
+
+[package]
+name = "EstruturaDeRepeticao"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_ExijaUmaNota"
+path = "01_ExijaUmaNota.rs"
+
