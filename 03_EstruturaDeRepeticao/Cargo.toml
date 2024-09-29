@@ -21,3 +21,7 @@ path = "03_ValidandoInfo.rs"
 name = "entrada"
 path = "entrada.rs"
 
+[[bin]]
+name = "04_TempoDeCrescimento"
+path = "04_TempoDeCrescimento.rs"
+
