@@ -79,3 +79,7 @@ path = "16_Fibonacci500.rs"
 name = "17_Fatorial"
 path = "17_Fatorial.rs"
 
+[[bin]]
+name = "18_ComparandoNumeros"
+path = "18_ComparandoNumeros.rs"
+
