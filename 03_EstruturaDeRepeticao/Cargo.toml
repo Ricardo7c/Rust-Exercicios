@@ -29,3 +29,7 @@ path = "04_TempoDeCrescimento.rs"
 name = "05_CalcularTaxaDeCrescimento"
 path = "05_CalcularTaxaDeCrescimento.rs"
 
+[[bin]]
+name = "06_Contagem"
+path = "06_Contagem.rs"
+
