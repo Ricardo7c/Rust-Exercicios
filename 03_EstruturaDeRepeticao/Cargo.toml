@@ -71,3 +71,7 @@ path = "14_contandoParesEInpares.rs"
 name = "15_SequenciaFibonacci"
 path = "15_SequenciaFibonacci.rs"
 
+[[bin]]
+name = "16_Fibonacci500"
+path = "16_Fibonacci500.rs"
+
