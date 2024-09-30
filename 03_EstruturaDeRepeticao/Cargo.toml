@@ -63,3 +63,7 @@ path = "12_Tabuada.rs"
 name = "13_Exponenciacao"
 path = "13_Exponenciacao.rs"
 
+[[bin]]
+name = "14_contandoParesEInpares"
+path = "14_contandoParesEInpares.rs"
+
