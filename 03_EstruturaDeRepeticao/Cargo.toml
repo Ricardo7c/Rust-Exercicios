@@ -59,3 +59,7 @@ path = "11_RangeComSoma.rs"
 name = "12_Tabuada"
 path = "12_Tabuada.rs"
 
+[[bin]]
+name = "13_Exponenciacao"
+path = "13_Exponenciacao.rs"
+
