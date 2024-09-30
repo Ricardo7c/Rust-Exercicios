@@ -46,3 +46,7 @@ path = "08_SomaEMedia.rs"
 name = "09_NumerosImpares"
 path = "09_NumerosImpares.rs"
 
+[[bin]]
+name = "10_RangeDeNumeros"
+path = "10_RangeDeNumeros.rs"
+
