@@ -83,3 +83,7 @@ path = "17_Fatorial.rs"
 name = "18_ComparandoNumeros"
 path = "18_ComparandoNumeros.rs"
 
+[[bin]]
+name = "19_ComparandoAte1000"
+path = "19_ComparandoAte1000.rs"
+
