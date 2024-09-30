@@ -75,3 +75,7 @@ path = "15_SequenciaFibonacci.rs"
 name = "16_Fibonacci500"
 path = "16_Fibonacci500.rs"
 
+[[bin]]
+name = "17_Fatorial"
+path = "17_Fatorial.rs"
+
