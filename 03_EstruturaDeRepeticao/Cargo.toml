@@ -33,3 +33,7 @@ path = "05_CalcularTaxaDeCrescimento.rs"
 name = "06_Contagem"
 path = "06_Contagem.rs"
 
+[[bin]]
+name = "07_OmaiorDe5"
+path = "07_OmaiorDe5.rs"
+
