@@ -50,3 +50,8 @@ path = "09_NumerosImpares.rs"
 name = "10_RangeDeNumeros"
 path = "10_RangeDeNumeros.rs"
 
+[[bin]]
+name = "11_RangeComSoma"
+path = "11_RangeComSoma.rs"
+
+
