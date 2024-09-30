@@ -67,3 +67,7 @@ path = "13_Exponenciacao.rs"
 name = "14_contandoParesEInpares"
 path = "14_contandoParesEInpares.rs"
 
+[[bin]]
+name = "15_SequenciaFibonacci"
+path = "15_SequenciaFibonacci.rs"
+
