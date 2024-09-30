@@ -37,3 +37,8 @@ path = "06_Contagem.rs"
 name = "07_OmaiorDe5"
 path = "07_OmaiorDe5.rs"
 
+[[bin]]
+name = "08_SomaEMedia"
+path = "08_SomaEMedia.rs"
+
+
