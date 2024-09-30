@@ -55,3 +55,7 @@ name = "11_RangeComSoma"
 path = "11_RangeComSoma.rs"
 
 
+[[bin]]
+name = "12_Tabuada"
+path = "12_Tabuada.rs"
+
