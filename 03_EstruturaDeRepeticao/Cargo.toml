@@ -42,3 +42,7 @@ name = "08_SomaEMedia"
 path = "08_SomaEMedia.rs"
 
 
+[[bin]]
+name = "09_NumerosImpares"
+path = "09_NumerosImpares.rs"
+
