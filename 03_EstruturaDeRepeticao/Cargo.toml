@@ -99,3 +99,11 @@ path = "20_FatorialComLimite.rs"
 name = "22_DivisoresNaoPrimos"
 path = "22_DivisoresNaoPrimos.rs"
 
+[[bin]]
+name = "23_PrimosEDivisoes"
+path = "23_PrimosEDivisoes.rs"
+
+[[bin]]
+name = "24_mediaDeNotas"
+path = "24_mediaDeNotas.rs"
+
