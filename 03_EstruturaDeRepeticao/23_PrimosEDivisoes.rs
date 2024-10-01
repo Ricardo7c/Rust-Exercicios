@@ -22,7 +22,7 @@ fn main(){
     }
 
     let mut divisores = 0;
-    for (_, numero) in primos.clone().into_iter().enumerate(){
+    for (index, numero) in primos.clone().into_iter().enumerate(){
         if numero > 2{
             for cada in 2..=((numero as f32).sqrt() as i32){
                 divisores += 1;
