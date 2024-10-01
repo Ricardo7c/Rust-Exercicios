@@ -1,6 +1,6 @@
 use std::io::{self, Write};
 
-fn int(texto: &str) -> i32{
+fn int(texto:&str) -> i32{
     loop{
         print!("{}",texto);
         io::stdout().flush().unwrap();
@@ -12,23 +12,31 @@ fn int(texto: &str) -> i32{
         }
     }
 }
+
 fn main(){
     let num = int("Digite um numero: ");
     let mut primo = true;
-
-    let mut count = 0;
+    let mut lista = Vec::new();
+    let mut cont = 0;
+    
     for cada in 1..=num{
         if num % cada == 0{
-            count += 1;
+            cont += 1;
+            lista.push(cada);
         }
     }
-    if count > 2 || num < 2{
+    if cont > 2 || num < 2{
         primo = false;
     }
 
     if primo{
-        println!("{} é primo", num)
+        println!("{} é primo", num);
     }else{
-        println!("{} não é primo", num)
+        print!("O numero {} não é primo, ele é divisivel por: ", num);
+        for cada in lista{
+            print!("{} ", cada)
+        }
     }
+
+
 }

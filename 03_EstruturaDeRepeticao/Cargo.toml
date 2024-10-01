@@ -95,3 +95,7 @@ path = "21_NumeroPrimo.rs"
 name = "20_FatorialComLimite"
 path = "20_FatorialComLimite.rs"
 
+[[bin]]
+name = "22_DivisoresNaoPrimos"
+path = "22_DivisoresNaoPrimos.rs"
+
