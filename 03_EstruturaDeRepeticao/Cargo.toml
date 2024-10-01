@@ -108,3 +108,7 @@ name = "24_mediaDeNotas"
 path = "24_mediaDeNotas.rs"
 
 
+[[bin]]
+name = "25_VariacaoDeIdade"
+path = "25_VariacaoDeIdade.rs"
+
