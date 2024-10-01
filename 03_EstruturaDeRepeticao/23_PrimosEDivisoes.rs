@@ -15,32 +15,34 @@ fn int(texto:&str) -> i32{
 
 fn main(){
     let num = int("Digite um numero: ");
-    let mut primos = Vec::new();
-    primos.push(2);
+    let mut numeros = vec![2];
+    let mut divisores = 0;
+    let mut primos_validos :Vec<i32> = Vec::new();
+
     for cada in (3..=num).step_by(2){
-        primos.push(cada);
+        numeros.push(cada);
     }
 
-    let mut divisores = 0;
-    for (index, numero) in primos.clone().into_iter().enumerate(){
-        if numero > 2{
-            for cada in 2..=((numero as f32).sqrt() as i32){
-                divisores += 1;
-                if numero % cada == 0{
-                    if let Some(pos) = primos.iter().position(|&x| x == numero) {
-                        primos.remove(pos);
-                    }
-                }
+    for &num in &numeros{
+        if num == 2{
+            primos_validos.push(num);
+            continue;
+        }
+        let mut primo = true;
+        for cada in 2..=((num as f32).sqrt() as i32){
+            divisores += 1;
+            if num % cada == 0{
+                primo = false;
             }
+        }
+        if primo{
+            primos_validos.push(num);
         }
     }
 
     print!("Os numeros primos entre 1 e {num} são: ");
-
-    for cada in primos{
-        print!("{} ", cada)
-    }
+    println!("{:?}", primos_validos);
     println!("");
-    println!("O total de divisores: {}", divisores)
+    println!("O total de divisores: {}", divisores);
 
 }
