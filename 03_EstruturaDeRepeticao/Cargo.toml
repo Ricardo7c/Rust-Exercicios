@@ -88,6 +88,10 @@ name = "19_ComparandoAte1000"
 path = "19_ComparandoAte1000.rs"
 
 [[bin]]
-name = "20_NumeroPrimo"
-path = "20_NumeroPrimo.rs"
+name = "21_NumeroPrimo"
+path = "21_NumeroPrimo.rs"
+
+[[bin]]
+name = "20_FatorialComLimite"
+path = "20_FatorialComLimite.rs"
 
