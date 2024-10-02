@@ -148,3 +148,7 @@ path = "33_MediaDeTemperatura.rs"
 name = "34_NumerosPrimos"
 path = "34_NumerosPrimos.rs"
 
+[[bin]]
+name = "35_ListaDePrimos"
+path = "35_ListaDePrimos.rs"
+
