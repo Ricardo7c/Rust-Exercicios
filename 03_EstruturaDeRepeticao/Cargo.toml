@@ -152,3 +152,7 @@ path = "34_NumerosPrimos.rs"
 name = "35_ListaDePrimos"
 path = "35_ListaDePrimos.rs"
 
+[[bin]]
+name = "36_Tabuada2"
+path = "36_Tabuada2.rs"
+
