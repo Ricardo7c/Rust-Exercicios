@@ -13,3 +13,7 @@ path = "01_VetorCom5Numeros.rs"
 name = "02_VetorInvertido"
 path = "02_VetorInvertido.rs"
 
+[[bin]]
+name = "03_CalculandoMedia"
+path = "03_CalculandoMedia.rs"
+
