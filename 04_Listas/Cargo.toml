@@ -1,0 +1,11 @@
+dependencies = { }
+
+[package]
+name = "Listas"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_VetorCom5Numeros"
+path = "01_VetorCom5Numeros.rs"
+
