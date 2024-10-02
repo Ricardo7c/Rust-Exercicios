@@ -32,6 +32,5 @@ fn main(){
         }    
     }
     let media = soma / turmas;
-
     println!("A numero medio de alunos por turma é: {}",media);
 }

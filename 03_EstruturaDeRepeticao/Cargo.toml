@@ -120,3 +120,7 @@ path = "26_Eleicao.rs"
 name = "27_mediaDeAlunos"
 path = "27_mediaDeAlunos.rs"
 
+[[bin]]
+name = "28_ValorMedioDaColecao"
+path = "28_ValorMedioDaColecao.rs"
+
