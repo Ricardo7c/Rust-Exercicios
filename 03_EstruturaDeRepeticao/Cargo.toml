@@ -140,3 +140,7 @@ path = "31_CaixaRegistradora.rs"
 name = "32_Fatorial"
 path = "32_Fatorial.rs"
 
+[[bin]]
+name = "33_MediaDeTemperatura"
+path = "33_MediaDeTemperatura.rs"
+
