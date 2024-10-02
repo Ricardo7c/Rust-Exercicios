@@ -16,7 +16,7 @@ fn float(texto:&str) -> f32{
 fn main(){
     let mut notas = Vec::new();
 
-    for nota in 0..4{
+    for _ in 0..4{
         let nota = float("Digita a nota: ");
         notas.push(nota);
     }
