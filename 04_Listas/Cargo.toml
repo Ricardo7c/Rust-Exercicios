@@ -9,3 +9,7 @@ edition = "2021"
 name = "01_VetorCom5Numeros"
 path = "01_VetorCom5Numeros.rs"
 
+[[bin]]
+name = "02_VetorInvertido"
+path = "02_VetorInvertido.rs"
+
