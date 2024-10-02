@@ -128,3 +128,7 @@ path = "28_ValorMedioDaColecao.rs"
 name = "29_TabelaDePrecos"
 path = "29_TabelaDePrecos.rs"
 
+[[bin]]
+name = "30_TabelaPrecoPao"
+path = "30_TabelaPrecoPao.rs"
+
