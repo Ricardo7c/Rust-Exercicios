@@ -136,3 +136,7 @@ path = "30_TabelaPrecoPao.rs"
 name = "31_CaixaRegistradora"
 path = "31_CaixaRegistradora.rs"
 
+[[bin]]
+name = "32_Fatorial"
+path = "32_Fatorial.rs"
+
