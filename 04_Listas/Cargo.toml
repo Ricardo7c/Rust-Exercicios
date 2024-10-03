@@ -21,3 +21,7 @@ path = "03_CalculandoMedia.rs"
 name = "04_Consoantes"
 path = "04_Consoantes.rs"
 
+[[bin]]
+name = "05_SeparandoParImpar"
+path = "05_SeparandoParImpar.rs"
+
