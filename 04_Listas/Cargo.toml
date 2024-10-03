@@ -37,3 +37,7 @@ path = "07_SomaMulti.rs"
 name = "08_IdadeAltura"
 path = "08_IdadeAltura.rs"
 
+[[bin]]
+name = "09_SomaDosQuadrados"
+path = "09_SomaDosQuadrados.rs"
+
