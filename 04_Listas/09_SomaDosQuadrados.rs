@@ -8,5 +8,4 @@ fn main(){
     }
 
     println!("A soma dos quadrados é: {}", soma);
-
 }
