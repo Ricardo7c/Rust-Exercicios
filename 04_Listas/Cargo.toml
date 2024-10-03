@@ -45,3 +45,7 @@ path = "09_SomaDosQuadrados.rs"
 name = "10_IntercalarVetores"
 path = "10_IntercalarVetores.rs"
 
+[[bin]]
+name = "11_intercalar3vetores"
+path = "11_intercalar3vetores.rs"
+
