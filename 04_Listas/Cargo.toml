@@ -49,3 +49,7 @@ path = "10_IntercalarVetores.rs"
 name = "11_intercalar3vetores"
 path = "11_intercalar3vetores.rs"
 
+[[bin]]
+name = "12_AlturasEIdades"
+path = "12_AlturasEIdades.rs"
+
