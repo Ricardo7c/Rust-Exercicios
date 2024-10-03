@@ -33,3 +33,7 @@ path = "06_CalculandoMedia.rs"
 name = "07_SomaMulti"
 path = "07_SomaMulti.rs"
 
+[[bin]]
+name = "08_IdadeAltura"
+path = "08_IdadeAltura.rs"
+
