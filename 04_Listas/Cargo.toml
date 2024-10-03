@@ -29,3 +29,7 @@ path = "05_SeparandoParImpar.rs"
 name = "06_CalculandoMedia"
 path = "06_CalculandoMedia.rs"
 
+[[bin]]
+name = "07_SomaMulti"
+path = "07_SomaMulti.rs"
+
