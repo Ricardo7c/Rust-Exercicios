@@ -17,3 +17,7 @@ path = "02_VetorInvertido.rs"
 name = "03_CalculandoMedia"
 path = "03_CalculandoMedia.rs"
 
+[[bin]]
+name = "04_Consoantes"
+path = "04_Consoantes.rs"
+
