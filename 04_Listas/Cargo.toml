@@ -41,3 +41,7 @@ path = "08_IdadeAltura.rs"
 name = "09_SomaDosQuadrados"
 path = "09_SomaDosQuadrados.rs"
 
+[[bin]]
+name = "10_IntercalarVetores"
+path = "10_IntercalarVetores.rs"
+
