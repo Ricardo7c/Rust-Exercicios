@@ -17,3 +17,7 @@ path = "02_numerosEmSequencia.rs"
 name = "03_SomaArgumentos"
 path = "03_SomaArgumentos.rs"
 
+[[bin]]
+name = "04_PositivoNegativo"
+path = "04_PositivoNegativo.rs"
+
