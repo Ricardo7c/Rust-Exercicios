@@ -37,3 +37,7 @@ path = "07_ValorPrestacao.rs"
 name = "08_QuantidadeDeDigitos"
 path = "08_QuantidadeDeDigitos.rs"
 
+[[bin]]
+name = "09_InverterNumero"
+path = "09_InverterNumero.rs"
+
