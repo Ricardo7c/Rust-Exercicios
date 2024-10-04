@@ -1,0 +1,11 @@
+dependencies = { }
+
+[package]
+name = "Funcoes"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_NumerosRepetidos"
+path = "01_NumerosRepetidos.rs"
+
