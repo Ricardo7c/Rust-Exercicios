@@ -1,4 +1,5 @@
-dependencies = { }
+[dependencies]
+rand = "0.8"
 
 [package]
 name = "Funcoes"
@@ -40,4 +41,9 @@ path = "08_QuantidadeDeDigitos.rs"
 [[bin]]
 name = "09_InverterNumero"
 path = "09_InverterNumero.rs"
+
+[[bin]]
+name = "10_jogoCraps"
+path = "10_jogoCraps.rs"
+
 
