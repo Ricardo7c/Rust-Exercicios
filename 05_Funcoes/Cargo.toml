@@ -21,3 +21,7 @@ path = "03_SomaArgumentos.rs"
 name = "04_PositivoNegativo"
 path = "04_PositivoNegativo.rs"
 
+[[bin]]
+name = "05_CalculandoImposto"
+path = "05_CalculandoImposto.rs"
+
