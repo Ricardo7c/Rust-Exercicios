@@ -9,3 +9,7 @@ edition = "2021"
 name = "01_NumerosRepetidos"
 path = "01_NumerosRepetidos.rs"
 
+[[bin]]
+name = "02_numerosEmSequencia"
+path = "02_numerosEmSequencia.rs"
+
