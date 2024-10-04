@@ -33,3 +33,7 @@ path = "06_ConversorDeHoras.rs"
 name = "07_ValorPrestacao"
 path = "07_ValorPrestacao.rs"
 
+[[bin]]
+name = "08_QuantidadeDeDigitos"
+path = "08_QuantidadeDeDigitos.rs"
+
