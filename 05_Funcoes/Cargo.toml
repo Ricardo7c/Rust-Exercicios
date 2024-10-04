@@ -13,3 +13,7 @@ path = "01_NumerosRepetidos.rs"
 name = "02_numerosEmSequencia"
 path = "02_numerosEmSequencia.rs"
 
+[[bin]]
+name = "03_SomaArgumentos"
+path = "03_SomaArgumentos.rs"
+
