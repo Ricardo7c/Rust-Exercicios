@@ -1,0 +1,11 @@
+[dependencies]
+
+[package]
+name = "Strings"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_compararStrings"
+path = "01_compararStrings.rs"
+
