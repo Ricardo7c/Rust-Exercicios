@@ -9,3 +9,7 @@ edition = "2021"
 name = "01_compararStrings"
 path = "01_compararStrings.rs"
 
+[[bin]]
+name = "02_NomeAoContrario"
+path = "02_NomeAoContrario.rs"
+
