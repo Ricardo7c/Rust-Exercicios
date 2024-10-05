@@ -21,3 +21,7 @@ path = "03_NomeVertical.rs"
 name = "04_NomeVerticalEscada"
 path = "04_NomeVerticalEscada.rs"
 
+[[bin]]
+name = "05_VerticalEscadaInvertida"
+path = "05_VerticalEscadaInvertida.rs"
+
