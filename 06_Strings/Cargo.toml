@@ -13,3 +13,7 @@ path = "01_compararStrings.rs"
 name = "02_NomeAoContrario"
 path = "02_NomeAoContrario.rs"
 
+[[bin]]
+name = "03_NomeVertical"
+path = "03_NomeVertical.rs"
+
