@@ -40,7 +40,7 @@ fn jogada(total:i32, lanc:i32) -> bool{
 fn pause() {
     let mut input = String::new();
     print!("Pressione Enter para lançar os dados");
-    io::stdout().flush().unwrap(); // Garante que a mensagem seja exibida antes de esperar o Enter
+    io::stdout().flush().unwrap(); 
     io::stdin().read_line(&mut input).unwrap();
 }
 

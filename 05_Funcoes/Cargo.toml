@@ -47,3 +47,7 @@ name = "10_jogoCraps"
 path = "10_jogoCraps.rs"
 
 
+[[bin]]
+name = "11_DataPorExtenso"
+path = "11_DataPorExtenso.rs"
+
