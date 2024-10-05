@@ -29,3 +29,11 @@ path = "05_VerticalEscadaInvertida.rs"
 name = "07_ContandoVogais"
 path = "07_ContandoVogais.rs"
 
+[[bin]]
+name = "08_Palindromo"
+path = "08_Palindromo.rs"
+
+[[bin]]
+name = "09_VerificarCPF"
+path = "09_VerificarCPF.rs"
+
