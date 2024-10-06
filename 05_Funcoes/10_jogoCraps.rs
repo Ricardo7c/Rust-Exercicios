@@ -21,6 +21,7 @@ fn jogada(total:i32, lanc:i32) -> bool{
         }else{
             println!("Ponto pra você!");
             ponto = total;
+            println!("Pontos: {}", ponto);
             return false
         }
     }else if total == ponto {
