@@ -1,6 +1,6 @@
 use std::io::{self, Write};
 
-fn input(texto: &str) -> Vec<i32>{ 
+fn input(texto: &str) -> Vec<u32>{ 
     loop {
         print!("{}", texto);
         io::stdout().flush().unwrap();
@@ -9,7 +9,7 @@ fn input(texto: &str) -> Vec<i32>{
         let mut cpftratado = vec![];
         for cada in x.trim().chars(){
             if cada.is_alphanumeric(){
-                cpftratado.push(cada.to_string().parse::<i32>().unwrap());
+                cpftratado.push(cada.to_string().parse::<u32>().unwrap());
             }
         }
         if cpftratado.len() == 11{
@@ -48,6 +48,21 @@ fn main(){
 
     if digito1 == cpf[9] && digito2 == cpf[10]{
         println!("CPF Valido!");
+        let mut formatado = String::new();
+        // 090.011.824-83
+        for cada in 0..11{
+            if cada == 2 || cada == 5{
+                formatado.push_str(&cpf[cada].to_string());
+                formatado.push('.');
+            }else if cada == 8 {
+                formatado.push_str(&cpf[cada].to_string());
+                formatado.push('-');
+            }else{
+                formatado.push_str(&cpf[cada].to_string());
+            }
+        }
+        println!("{}",formatado);
+
     }else{
         println!("CPF Invalido!");
     }
