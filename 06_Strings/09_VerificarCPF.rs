@@ -47,7 +47,6 @@ fn main(){
     }
 
     if digito1 == cpf[9] && digito2 == cpf[10]{
-        println!("CPF Valido!");
         let mut formatado = String::new();
         // 090.011.824-83
         for cada in 0..11{
@@ -61,7 +60,7 @@ fn main(){
                 formatado.push_str(&cpf[cada].to_string());
             }
         }
-        println!("{}",formatado);
+        print!("CPF Valido: {}", formatado);
 
     }else{
         println!("CPF Invalido!");
