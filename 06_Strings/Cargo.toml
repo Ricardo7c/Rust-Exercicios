@@ -37,3 +37,7 @@ path = "08_Palindromo.rs"
 name = "09_VerificarCPF"
 path = "09_VerificarCPF.rs"
 
+[[bin]]
+name = "10_NumeroPorExtenso"
+path = "10_NumeroPorExtenso.rs"
+
