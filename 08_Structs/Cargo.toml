@@ -17,3 +17,7 @@ path = "02_Quadrado.rs"
 name = "03_Retangulo"
 path = "03_Retangulo.rs"
 
+[[bin]]
+name = "04_Pessoa"
+path = "04_Pessoa.rs"
+
