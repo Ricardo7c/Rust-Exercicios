@@ -25,3 +25,7 @@ path = "04_Pessoa.rs"
 name = "05_ContaCorrente"
 path = "05_ContaCorrente.rs"
 
+[[bin]]
+name = "06_TV"
+path = "06_TV.rs"
+
