@@ -48,6 +48,4 @@ fn main(){
     tv.aumentar_volume();
     tv.mostrar_tv();
 
-
-
 }
