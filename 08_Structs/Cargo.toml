@@ -1,0 +1,19 @@
+[dependencies]
+
+[package]
+name = "Structs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_BBola"
+path = "01_BBola.rs"
+
+[[bin]]
+name = "02_Quadrado"
+path = "02_Quadrado.rs"
+
+[[bin]]
+name = "03_Retangulo"
+path = "03_Retangulo.rs"
+
