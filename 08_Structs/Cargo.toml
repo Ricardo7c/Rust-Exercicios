@@ -33,3 +33,7 @@ path = "06_TV.rs"
 name = "07_BichinhoVirtual"
 path = "07_BichinhoVirtual.rs"
 
+[[bin]]
+name = "08_Macaco"
+path = "08_Macaco.rs"
+
