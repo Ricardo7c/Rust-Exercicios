@@ -19,8 +19,6 @@ impl Macaco{
     fn exibir_bucho(&self){
         println!("O bucho do {} tem: {:?}", self.nome, self.bucho)
     }
-
-
 }
 
 enum Comida{
