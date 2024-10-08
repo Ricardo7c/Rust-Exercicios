@@ -37,3 +37,7 @@ path = "07_BichinhoVirtual.rs"
 name = "08_Macaco"
 path = "08_Macaco.rs"
 
+[[bin]]
+name = "10_BombaDeCombustivel"
+path = "10_BombaDeCombustivel.rs"
+
