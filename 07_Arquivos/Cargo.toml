@@ -1,0 +1,15 @@
+[dependencies]
+
+[package]
+name = "Arquivos"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_EscrevendoArquivo"
+path = "01_EscrevendoArquivo.rs"
+
+[[bin]]
+name = "02_LendoArquivo"
+path = "02_LendoArquivo.rs"
+
