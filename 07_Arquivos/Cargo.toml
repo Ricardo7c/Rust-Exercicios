@@ -13,3 +13,7 @@ path = "01_EscrevendoArquivo.rs"
 name = "02_LendoArquivo"
 path = "02_LendoArquivo.rs"
 
+[[bin]]
+name = "03_LendoLinhaPorLinha"
+path = "03_LendoLinhaPorLinha.rs"
+

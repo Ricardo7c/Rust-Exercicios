@@ -16,5 +16,9 @@ fn main(){
     let arquivo = "novo.txt";
     let conteudo = "Testando arquivo de leitura!\n";
     let _ = escrever(arquivo, conteudo);
-    let _ = proxima_linha(arquivo, "Nova linha!");
+    for cada in 0..=10{
+        let linha = "Texto da linha numero: ".to_owned() + &cada.to_string() + "\n";
+        let _ = proxima_linha(arquivo, &linha);
+    }
+
 }

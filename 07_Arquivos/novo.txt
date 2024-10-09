@@ -1,2 +1,14 @@
 Testando arquivo de leitura!
-Nova linha!
+Texto da linha numero: 0
+Texto da linha numero: 1
+Texto da linha numero: 2
+Texto da linha numero: 3
+Texto da linha numero: 4
+Texto da linha numero: 5
+Texto da linha numero: 6
+Texto da linha numero: 7
+Texto da linha numero: 8
+Texto da linha numero: 9
+Texto da linha numero: 10
+Texto especial linha 11
+Novo texto, agora na linha 12
