@@ -56,8 +56,8 @@ fn escrevendo(conteudo:Vec<String>, arquivo: &str, valido: bool){
 
 
 fn main() {
-    let ips = ler_arquivo("01_IPsParaValidar.txt");
-    let arquivo = "01_IpsValidados.txt";
+    let ips = ler_arquivo("IPsParaValidar.txt");
+    let arquivo = "IpsValidados.txt";
     let mut validos = Vec::new();
     let mut invalidos = Vec::new();
     for ip in ips{
