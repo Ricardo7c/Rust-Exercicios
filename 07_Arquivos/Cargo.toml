@@ -17,3 +17,19 @@ path = "02_LendoArquivo.rs"
 name = "03_LendoLinhaPorLinha"
 path = "03_LendoLinhaPorLinha.rs"
 
+[[bin]]
+name = "01_ValidarIps"
+path = "01_ValidarIps.rs"
+
+[[bin]]
+name = "EscrevendoArquivo"
+path = "EscrevendoArquivo.rs"
+
+[[bin]]
+name = "LendoArquivo"
+path = "LendoArquivo.rs"
+
+[[bin]]
+name = "LendoLinhaPorLinha"
+path = "LendoLinhaPorLinha.rs"
+

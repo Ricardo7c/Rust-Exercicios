@@ -10,5 +10,3 @@ Texto da linha numero: 7
 Texto da linha numero: 8
 Texto da linha numero: 9
 Texto da linha numero: 10
-Texto especial linha 11
-Novo texto, agora na linha 12

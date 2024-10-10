@@ -22,5 +22,5 @@ fn ler_arquivo(valor: &str) -> io::Result<()>{
 }
 
 fn main(){
-    let _ = ler_arquivo("12");
+    let _ = ler_arquivo("5");
 }
