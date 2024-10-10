@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 
-fn ler_arquivo(valor: &str) -> io::Result<()>{
+fn buscar_linha(valor: &str) -> io::Result<()>{
     // Abre o arquivo para leitura
     let arquivo = File::open("novo.txt")?;
 
@@ -22,5 +22,5 @@ fn ler_arquivo(valor: &str) -> io::Result<()>{
 }
 
 fn main(){
-    let _ = ler_arquivo("5");
+    let _ = buscar_linha("5");
 }

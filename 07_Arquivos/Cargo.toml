@@ -21,15 +21,16 @@ path = "03_LendoLinhaPorLinha.rs"
 name = "01_ValidarIps"
 path = "01_ValidarIps.rs"
 
-[[bin]]
-name = "EscrevendoArquivo"
-path = "EscrevendoArquivo.rs"
 
 [[bin]]
-name = "LendoArquivo"
-path = "LendoArquivo.rs"
+name = "00_Buscar_linha"
+path = "00_Buscar_linha.rs"
 
 [[bin]]
-name = "LendoLinhaPorLinha"
-path = "LendoLinhaPorLinha.rs"
+name = "00_EscrevendoArquivo"
+path = "00_EscrevendoArquivo.rs"
+
+[[bin]]
+name = "00_LendoArquivo"
+path = "00_LendoArquivo.rs"
 
