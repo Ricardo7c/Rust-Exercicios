@@ -7,5 +7,5 @@ edition = "2021"
 
 
 [[bin]]
-name = "main"
-path = "src/main.rs"
+name = "IpsValidos"
+path = "IpsValidos.rs"

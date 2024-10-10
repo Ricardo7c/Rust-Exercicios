@@ -39,18 +39,18 @@ fn proxima_linha(arquivo: &str, conteudo: String){
 
 fn escrevendo(conteudo:Vec<String>, arquivo: &str, valido: bool){
     if valido{
-        let _ = proxima_linha(arquivo, "----- Ips validos -----".to_string().to_owned()+"\n");
+        proxima_linha(arquivo, "----- Ips validos -----".to_string().to_owned()+"\n");
         for cada in conteudo{
-            let _ = proxima_linha(arquivo, cada);
+            proxima_linha(arquivo, cada);
         }
-        let _ = proxima_linha(arquivo, "\n".to_string());
+        proxima_linha(arquivo, "\n".to_string());
     }else{
-        let _ = proxima_linha(arquivo, "  ".to_string());
-        let _ = proxima_linha(arquivo, "----- Ips invalidos -----".to_string().to_owned()+"\n");
+        proxima_linha(arquivo, "  ".to_string());
+        proxima_linha(arquivo, "----- Ips invalidos -----".to_string().to_owned()+"\n");
         for cada in conteudo{
-            let _ = proxima_linha(arquivo, cada);
+            proxima_linha(arquivo, cada);
         }
-        let _ = proxima_linha(arquivo, "\n".to_string());
+        proxima_linha(arquivo, "\n".to_string());
     }
 }
 
@@ -69,4 +69,5 @@ fn main() {
 
     escrevendo(validos, &arquivo, true);
     escrevendo(invalidos, &arquivo, false);
+    println!("Aquivo escrito com sucesso!");
 }
