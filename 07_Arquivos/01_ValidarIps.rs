@@ -1,6 +1,6 @@
 use std::net::{Ipv4Addr, Ipv6Addr};
 use std::fs::{File, OpenOptions};
-use std::io::{self, Write, Read};
+use std::io::{Write, Read};
 
 fn validar_ip(ip: String) -> Result<(), String> {
     if ip.parse::<Ipv4Addr>().is_ok() {
@@ -32,9 +32,9 @@ fn ler_arquivo(arquivo: &str) -> Vec<String>{
 }
 
 
-fn proxima_linha(arquivo: &str, conteudo: String) -> io::Result<()>{
-    OpenOptions::new().append(true).open(arquivo)?.write_all(conteudo.as_bytes())?;
-    Ok(())
+fn proxima_linha(arquivo: &str, conteudo: String){
+    let mut x = OpenOptions::new().append(true).open(arquivo).unwrap();
+    x.write_all(conteudo.as_bytes()).unwrap();
 }
 
 fn escrevendo(conteudo:Vec<String>, arquivo: &str, valido: bool){
@@ -57,6 +57,7 @@ fn escrevendo(conteudo:Vec<String>, arquivo: &str, valido: bool){
 
 fn main() {
     let ips = ler_arquivo("01_IPsParaValidar.txt");
+    let arquivo = "01_IpsValidados.txt";
     let mut validos = Vec::new();
     let mut invalidos = Vec::new();
     for ip in ips{
@@ -66,6 +67,6 @@ fn main() {
         };
     };
 
-    escrevendo(validos, "01_IpsValidados.txt", true);
-    escrevendo(invalidos, "01_IpsValidados.txt", false);
+    escrevendo(validos, &arquivo, true);
+    escrevendo(invalidos, &arquivo, false);
 }
