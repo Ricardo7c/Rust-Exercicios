@@ -68,5 +68,4 @@ fn main() {
 
     escrevendo(validos, "01_IpsValidados.txt", true);
     escrevendo(invalidos, "01_IpsValidados.txt", false);
-
 }
